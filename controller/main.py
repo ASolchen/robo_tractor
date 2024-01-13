@@ -6,12 +6,8 @@ import Gamepad
 import time
 
 # Gamepad settings
-gamepadType = Gamepad.PS3
-buttonHappy = 'CROSS'
-buttonBeep = 'CIRCLE'
-buttonExit = 'PS'
-joystickSpeed = 'LEFT-Y'
-joystickSteering = 'RIGHT-X'
+gamepadType = Gamepad.PS4
+
 
 # Wait for a connection
 if not Gamepad.available():
